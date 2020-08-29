@@ -1,3 +1,13 @@
 <template>
-  <h1>Educations</h1>
+  <coursework></coursework>
 </template>
+
+<script>
+  import Coursework from "../components/Coursework.vue"
+
+  export default {
+    components: {
+      'coursework': Coursework
+    }
+  }
+</script>
